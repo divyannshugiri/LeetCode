@@ -28,8 +28,11 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
         public  static void (String[] args)
         {
+            int nums[]={2,7,11,15};
+            int target=9;
 
-            twosum(nums, target);
+          int[] result =twosum(nums, target);
+          
         }
 
     }
