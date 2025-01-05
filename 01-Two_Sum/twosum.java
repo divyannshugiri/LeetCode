@@ -1,3 +1,11 @@
+/*Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+*/
+ 
+ 
+ 
+ 
  class solution
  {
     public int[] twosum(int[] nums, int target)
@@ -16,9 +24,11 @@
             }
         }
         return arr;
+    }
 
-        public  static void main(String[] args)
+        public  static void (String[] args)
         {
+
             twosum(nums, target);
         }
 
