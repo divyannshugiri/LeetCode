@@ -8,9 +8,10 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
  
  class solution
  {
-    public int[] twosum(int[] nums, int target)
+    public static int[] twosum(int[] nums, int target)
     {
         int[] arr = new int[2];
+
         for(int i=0;i<nums.length;i++)
         {
             for(int j=i+1; j<nums.length;j++)
@@ -23,17 +24,17 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
                 }
             }
         }
+
         return arr;
     }
 
-        public  static void (String[] args)
+        public static  void main(String[] args)
         {
             int nums[]={2,7,11,15};
             int target=9;
 
-          int[] result =twosum(nums, target);
-          
+            int[] result = twosum(nums, target);
+            System.out.println(result[0] +"," +result[1]);
         }
 
     }
-}
